@@ -149,7 +149,7 @@ label {
 
 /* Text fields */
 
-#Passwd, #Secret, #Domain {
+#Passwd, #Secret, #Domain, #Title {
    width: 100%;
    height: 38px;
    margin: 0;
@@ -161,7 +161,7 @@ label {
    padding-right: 30px;
 }
 
-#PasswdField, #DomainField {
+#PasswdField, #DomainField, TitleField {
    clear: both;
 }
 
