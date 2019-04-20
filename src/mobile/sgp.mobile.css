@@ -161,7 +161,7 @@ label {
    padding-right: 30px;
 }
 
-#PasswdField, #DomainField, TitleField {
+#PasswdField, #DomainField, #TitleField {
    clear: both;
 }
 
