@@ -38,7 +38,7 @@
 		<div id="main">
 
 			<h1>
-				SGP
+				<span id="title">SGP</span>
 				<span id="Options" title="Toggle advanced options"></span>
 				<span id="SaveDefaults" class="Option" title="Save current advanced options as defaults"></span>
 			</h1>
@@ -79,6 +79,11 @@
 						<input id="RemoveSubdomains" type="checkbox" value="disabled" checked="checked">
 						<label for="RemoveSubdomains" title="Toggle subdomain removal">TLD</label>
 					</fieldset>
+				</fieldset>
+				
+				<fieldset id="TitleField">
+					<input id="Title" type="text" autocorrect="off" autocapitalize="off">
+					<label for="Title" class="placeholder">title</label>
 				</fieldset>
 
 				<div id="Result">
