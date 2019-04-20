@@ -19,11 +19,6 @@ var latestVersion = 20150216;
 
 // Hostnames that should not be populated into the domain field on referral.
 var noReferral = [
-  'chriszarate.github.io',
-  'www.google.com',
-  'www.bing.com',
-  'duckduckgo.com',
-  'r.search.yahoo.com'
 ];
 
 var localizations = {
